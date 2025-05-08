@@ -17,17 +17,12 @@ const userSchema = mongoose.Schema({
         type: Array,
         default: []
     },
-    isAdmin: {
-        type: Boolean,
-        default: false
-    },
     orders: {
         type: Array,
         default: []
     },
     contact: {
-        type: Number,
-        required: true
+        type: Number
     },
     picture: {
         type: String
